@@ -60,6 +60,5 @@ $.ajax({
         error: (error) => {
             console.log(error);
             $("#preloader").hide();
-            sweetAlert("404 Error!", "Wrong name! Try again", "error");
         }
     });
